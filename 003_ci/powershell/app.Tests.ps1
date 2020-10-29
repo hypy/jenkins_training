@@ -6,10 +6,11 @@ Describe "League tests" {
     }
     Context "When teams play a game" {
         It "should Legia win" {
-            Select-Winner -Team1 "Legia" -Team2 "Widzew" | Should -be "Legia"
+            Select-Winner -Team1 "Legia" -Team2 "Widzew" | Should -be "Legia "
         }
         It "should another win" {
             Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
         }
     }
+
 }

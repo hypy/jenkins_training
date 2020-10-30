@@ -4,6 +4,5 @@ function Select-Winner($Team1,$Team2){
         return $Team1
     }
 
-gapa
     return $Team2
 }
